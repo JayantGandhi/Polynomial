@@ -1,0 +1,12 @@
+#
+#   Author: Jayant Gandhi
+#
+#   Date: 9/20/2012
+#
+#
+#   Basic makefile to create polynomials.exe (UNIX)
+#   
+#
+
+all:
+		g++ jg492Poly.cpp poly.cpp term.cpp -o polynomials.exe
